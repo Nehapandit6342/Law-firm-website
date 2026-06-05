@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* LOGO */
+.logo {
+  color: gold;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* LINKS */
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* BUTTON */
+.btn {
+  background: gold;
+  border: none;
+  padding: 10px 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}
+/* HERO SECTION */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 8%;
+  height: 80vh;
+  gap: 40px;
+}
+
+/* TEXT SIDE */
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 52px;
+  line-height: 1.2;
+}
+
+.hero-text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* IMAGE SIDE */
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+}
